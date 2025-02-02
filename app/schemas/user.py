@@ -9,7 +9,7 @@ class UserCreate(BaseModel):
 
 
 class UserResponse(BaseModel):
-    # id: int
+    id: int
     first_name: str
     last_name: str
     email: str
